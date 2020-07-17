@@ -4,7 +4,7 @@ function feetToMile(feet)
 {
     // 1 mile = 5280 feet
     let calculateMile;
-    let comment="You've entered negative value....Please, enter positive value....";
+    let comment="Problem 1 : You've entered negative value....Please, enter positive value....";
     // If user enter any negative value...then it will exist this condition...
     if(feet < 0)  
     {
@@ -27,7 +27,7 @@ function woodCalculator(chair, table, bed)
 {
     
     let calculateChair, calculateTable, calculateBed, totalWood;
-    let comment = "Please enter positive value...";
+    let comment = "Problem 2 : Please enter positive value...";
     // If user enter any negative value...then it will exist this condition...
     if(chair < 0 || table < 0 || bed < 0)
     {
@@ -57,7 +57,7 @@ console.log(resultOfProblem2);
 function brickCalculator(floorNumber)
 {
     let firstTenBrickAmmount, secondTenBrickAmmount, thirdBrickAmmount, totalBrick;
-    let comment="You've entered negative value....Please, enter positive value....";
+    let comment="Problem 3 : You've entered negative value....Please, enter positive value....";
 
     /*
         1st to 10th floor , every floor takes 15 feet
@@ -105,7 +105,7 @@ function tinyFriend(friendsName)
     // If user enter any empty string...This condition will exist...
     if(friendsName == " ")
     {
-        return "You've entered empty string....";
+        return "Problem 4 : You've entered empty string....";
     }
     // To find shortest string....This condition will exist...
     else
